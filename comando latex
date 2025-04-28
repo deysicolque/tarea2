@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Teorema de Pitágoras}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pitagoras.png} % Cambia la ruta y el nombre del archivo
+    \caption{img}
+    \label{fig:etiqueta-imagen}
+\end{figure}
+
+El Teorema de Pitágoras es un principio fundamental en geometría que relaciona los lados de un triángulo rectángulo.
+
+\subsection*{Enunciado del Teorema de Pitágoras:}
+
+En todo triángulo rectángulo, el cuadrado de la longitud de la hipotenusa (el lado opuesto al ángulo recto) es igual a la suma de los cuadrados de las longitudes de los catetos (los dos lados que forman el ángulo recto).
+
+\subsection*{Expresión matemática:}
+
+Si representamos la longitud de la hipotenusa con la letra $c$ y las longitudes de los catetos con las letras $a$ y $b$, entonces el Teorema de Pitágoras se expresa de la siguiente manera:
+$$a^2 + b^2 = c^2$$
+
+\subsection*{¿Para qué sirve?}
+
+El Teorema de Pitágoras tiene muchas aplicaciones, entre las que se incluyen:
+\begin{itemize}
+    \item Calcular la longitud de un lado desconocido en un triángulo rectángulo cuando se conocen las longitudes de los otros dos lados.
+    \item Determinar si un triángulo es rectángulo al verificar si la relación entre sus lados cumple el teorema.
+    \item Resolver problemas de distancia y navegación.
+    \item En ingeniería y construcción para calcular diagonales y alturas.
+\end{itemize}
+
+\subsection*{Ejemplo sencillo:}
+
+Imagina un triángulo rectángulo donde un cateto mide 3 unidades y el otro cateto mide 4 unidades. Para encontrar la longitud de la hipotenusa, podemos usar el Teorema de Pitágoras:
+\begin{align*}
+3^2 + 4^2 &= c^2 \\
+9 + 16 &= c^2 \\
+25 &= c^2 \\
+c &= \sqrt{25} \\
+c &= 5
+\end{align*}
+Por lo tanto, la longitud de la hipotenusa es de 5 unidades.
+
+\end{document}
